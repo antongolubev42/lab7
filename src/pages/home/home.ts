@@ -11,4 +11,19 @@ export class HomePage {
 
   }
 
+  OpenUlsterpage(){
+    this.navCtrl.push('UlsterPage');
+  }
+
+  OpenLeinsterPage(){
+    this.navCtrl.push('LeinsterPage');
+  }
+
+  OpenMunsterPage(){
+    this.navCtrl.push('MunsterPage');
+  }
+
+  OpenConnaughtPage(){
+    this.navCtrl.push('ConnaughtPage');
+  }
 }
